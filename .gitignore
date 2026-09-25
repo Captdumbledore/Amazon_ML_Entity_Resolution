@@ -1,0 +1,18 @@
+# Local and generated data
+data/
+Dataset/**/dataset/
+Dataset/**/__MACOSX/
+duckdb_temp/
+output/
+submission/*
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local editor and system files
+.DS_Store
+.vscode/
