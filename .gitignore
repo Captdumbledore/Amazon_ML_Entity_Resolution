@@ -1,7 +1,6 @@
 # Local and generated data
 data/
-Dataset/**/dataset/
-Dataset/**/__MACOSX/
+Dataset/
 duckdb_temp/
 output/
 submission/*
