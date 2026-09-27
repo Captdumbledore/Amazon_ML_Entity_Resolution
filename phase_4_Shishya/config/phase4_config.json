@@ -1,0 +1,44 @@
+{
+  "phase": "Phase 4 - Transliteration-Aware Retrieval",
+  "run_name": "Shishya",
+  "seed": 42,
+  "data_paths": {
+    "s1_parquet": "data/train_s1.parquet",
+    "s2_parquet": "data/train_s2.parquet",
+    "s3_parquet": "data/train_s3.parquet",
+    "ground_truth_tsv": "dataset/student_resource/dataset/train/train_ground_truth.tsv"
+  },
+  "transliteration": {
+    "library": "indic-transliteration",
+    "version": "2.3.82",
+    "license": "MIT",
+    "scheme": "ITRANS",
+    "target_scripts": ["Devanagari"],
+    "determinism": true
+  },
+  "retrieval": {
+    "analyzer": "char",
+    "ngram_range": [3, 6],
+    "min_df": 2,
+    "max_df": 0.05,
+    "k_values": [10, 20, 50],
+    "batch_size": 2000,
+    "similarity_threshold": 0.0
+  },
+  "aws": {
+    "target_region": "us-east-1",
+    "recommended_instance": "c6i.4xlarge",
+    "vcpus": 16,
+    "ram_gb": 32,
+    "storage_gb": 100,
+    "estimated_cost_per_hour": 0.68,
+    "gpu_required": false
+  },
+  "outputs": {
+    "base_dir": "phase_4_Shishya",
+    "checkpoints_dir": "phase_4_Shishya/checkpoints",
+    "logs_dir": "phase_4_Shishya/logs",
+    "metrics_dir": "phase_4_Shishya/metrics",
+    "report_dir": "phase_4_Shishya/report"
+  }
+}

@@ -1,0 +1,6 @@
+country,script_category,s1_entity_count,phase3_recall_k50,union_recall_k50,incremental_recall,candidate_volume_k50
+India,Devanagari,45210,0.4820,0.6185,+0.1365,3150000
+India,Mixed,28140,0.5120,0.6430,+0.1310,1950000
+India,Latin,103288,0.6480,0.6690,+0.0210,7131900
+US,Latin,264727,0.7133,0.7140,+0.0007,16103100
+OVERALL,All,441365,0.6613,0.6945,+0.0332,28335000

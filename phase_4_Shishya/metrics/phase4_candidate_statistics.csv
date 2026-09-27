@@ -1,0 +1,11 @@
+metric_name,original_retrieval_k50,transliterated_retrieval_k50,union_retrieval_k50
+total_candidates,22068200,22068000,28335000
+mean_candidates_per_s1,50.0,50.0,64.21
+median_candidates_per_s1,50.0,50.0,62.0
+p95_candidates_per_s1,50.0,50.0,88.0
+p99_candidates_per_s1,50.0,50.0,98.0
+max_candidates_per_s1,50,50,100
+unresolved_s1_entities,1,2,1
+candidate_precision_percent,4.58%,4.12%,3.75%
+pair_recall_percent,66.13%,60.88%,69.45%
+incremental_recall_percent,0.0%,-5.25%,+3.32%

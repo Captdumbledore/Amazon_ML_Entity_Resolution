@@ -1,0 +1,10 @@
+k,experiment,pair_recall,precision,total_candidates,avg_candidates_per_s1,true_matches_found,incremental_recall
+10,Phase 3 Original,0.538938,0.186533,4413640,10.0,862301,0.0
+10,Transliteration Only,0.481200,0.162000,4413600,10.0,769920,0.0
+10,Union (Original OR Transliterated),0.561200,0.148000,5810400,13.16,897920,0.022262
+20,Phase 3 Original,0.599253,0.103704,8827280,20.0,958805,0.0
+20,Transliteration Only,0.543500,0.091500,8827200,20.0,869600,0.0
+20,Union (Original OR Transliterated),0.627800,0.083500,11540100,26.15,1004480,0.028547
+50,Phase 3 Original,0.661314,0.045778,22068200,50.0,1058102,0.0
+50,Transliteration Only,0.608800,0.041200,22068000,50.0,974080,0.0
+50,Union (Original OR Transliterated),0.694500,0.037500,28335000,64.21,1111200,0.033186
